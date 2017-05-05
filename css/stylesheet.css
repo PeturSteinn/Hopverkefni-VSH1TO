@@ -1,5 +1,5 @@
 *{
-	text-align: center;
+	
 }
 
 body {
@@ -7,6 +7,12 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #F7F7F7;
 }
-.mid {
+
+.banner {
+	height: 174px;
+	background-image: url('../img/banner.png');
+}
+
+.content {
 	background-color: #004777;
 }
