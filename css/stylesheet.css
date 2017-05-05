@@ -12,7 +12,7 @@ body {
 	height: 174px;
 	background-image: url('../img/banner.png');
 }
-/* Þarf að finna betri leið! */
+
 .tabmenu {
 	display: flex;
 	justify-content: space-around;
@@ -38,13 +38,22 @@ body {
 
 .tabmenu a:link:active,
 .tabmenu a:link:active {
-
+	color: #F7F7F7;
 }
 
+.tabmenu a:hover {
+	color: #FFF;
+}
 .content {
 	background-color: #004777;
 }
 
 .context-image {
 	margin-left: .5em;
+	font-size: .6em;
+	color: #828a95;
+}
+
+.content-image img {
+	margin-top: .1em;
 }
