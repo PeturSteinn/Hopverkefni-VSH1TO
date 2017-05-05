@@ -1,5 +1,5 @@
 *{
-	
+
 }
 
 body {
@@ -11,6 +11,23 @@ body {
 .banner {
 	height: 174px;
 	background-image: url('../img/banner.png');
+}
+/* Þarf að finna betri leið! */
+.tabmenu {
+	display: flex;
+	justify-content: space-around;
+	background-color: #828a95;
+	margin-left: 1em;
+	margin-right: 50em;
+	border-radius: .2em .2em 0 0;
+
+}
+
+.tabmenu a {
+	margin: .2em;
+	padding: .2em;
+	color: #F7F7F7;
+	text-decoration: none;
 }
 
 .content {
