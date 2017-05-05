@@ -17,10 +17,9 @@ body {
 	display: flex;
 	justify-content: space-around;
 	background-color: #828a95;
-	margin-left: 1em;
+	margin-left: 0em;
 	margin-right: 50em;
-	border-radius: .2em .2em 0 0;
-
+	border-radius: 0 .3em 0 0;
 }
 
 .tabmenu a {
@@ -30,6 +29,22 @@ body {
 	text-decoration: none;
 }
 
+.tabnemu a:link,
+.tabmenu a:visited {
+	color: #F7F7F7;
+	text-decoration: none;
+	cursor: auto;
+}
+
+.tabmenu a:link:active,
+.tabmenu a:link:active {
+
+}
+
 .content {
 	background-color: #004777;
+}
+
+.context-image {
+	margin-left: .5em;
 }
