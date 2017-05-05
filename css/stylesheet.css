@@ -18,7 +18,7 @@ body {
 	justify-content: space-around;
 	background-color: #828a95;
 	margin-left: 0em;
-	margin-right: 50em;
+	margin-right: 52em;
 	border-radius: 0 .3em 0 0;
 }
 
@@ -54,6 +54,18 @@ body {
 	color: #828a95;
 }
 
-.content-image img {
-	margin-top: .1em;
+.context-image img {
+	margin-bottom: .2em;
+}
+
+footer {
+	text-align: center;
+}
+
+footer a {
+	color: #F7F7F7;
+}
+
+.tagline {
+	text-align: right;
 }
